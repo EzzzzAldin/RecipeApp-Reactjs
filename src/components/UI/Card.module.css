@@ -1,0 +1,18 @@
+.card {
+  background-color: #fff;  
+  margin: 20px auto;
+  width: 600px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex; 
+  justify-content: space-around;
+}
+
+
+.card p {
+  color: #f5971d;
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: bold;
+}

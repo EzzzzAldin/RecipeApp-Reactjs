@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f5971d;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.app .search-input {
+  border: none;
+  margin: 9px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 18px;
+  background-color: #f5971d;
+  color: #fff;
+}
+
+.app .search-btn {
+  background-color: #f5971d;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: cursive;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.app .search-btn:hover {
+  background-color: #c3750e;
+}
+
+.app .foods {
+  background-color: #fff;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+  padding: 30px 100px;
+}

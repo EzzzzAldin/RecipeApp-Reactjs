@@ -1,0 +1,34 @@
+.recipe {
+  position: relative;
+  transition: all 0.5s;
+}
+
+.info {
+  position: absolute;
+  bottom: 19%;
+  background-color: rgb(245 151 29 / 70%);
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+}
+
+.recipe button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: orange;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.recipe ul {
+    list-style: none;
+    transition: all 0.5s;
+}
+
+.recipe li {
+    color: black;
+    transition: all 0.5s;
+}
